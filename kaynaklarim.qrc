@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/veri">
+        <file>konumlar.txt</file>
+        <file>skorlar.txt</file>
+    </qresource>
+    <qresource prefix="/gorseller">
+        <file>images/1.png</file>
+        <file>images/2.png</file>
+        <file>images/back.jpg</file>
+    </qresource>
+</RCC>
