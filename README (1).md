@@ -44,8 +44,7 @@ Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesm
 ├── konumlar.txt
 ├── skorlar.txt
 ├── images/               # Karpuz ve kesilmiş karpuz resimleri
-├── 23100011009_dialog.cpp  # Gereken ayrı kopya
-└── README.md             # Bu dosya
+└── README.md             
 ```
 
 ---
@@ -74,35 +73,26 @@ Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesm
 Oyun içi deneyimi görmek için aşağıdaki videoyu izleyebilirsiniz:
 
 🎥 [Karpuz Kesme Oyunu Tanıtım Videosu](https://www.youtube.com/watch?v=IJ7QwbOhyuI)
-
+![Oyun Demo](https://s6.ezgif.com/tmp/ezgif-639ea8262b165a.gif) 
 ---
 
 ## 📝 Proje Hakkında Medium Yazısı
 
 Bu proje hakkında yazdığım detaylı yazıya aşağıdaki bağlantıdan ulaşabilirsiniz:
 
-👉 [Medium yazısını buraya sen ekleyeceksin](Medium yazı linki buraya)
+👉 (Medium yazı linki buraya)
 
 ---
+## 👩‍💻 Geliştirici Bilgileri
 
-## 📤 Teslim Formatı
-
-- ✅ Proje dosyaları `.zip` halinde yüklendi
-- ✅ `23100011009_dialog.cpp` ayrı dosya olarak yüklendi
-- ✅ Video kaydı yüklendi
-- ✅ Son teslim tarihi olan **6 Nisan 2025 23:55**’ten önce gönderildi
-
----
-
-## ⚠️ Notlar
-
-- Kodda açıklayıcı yorum satırları mevcuttur.
-- Tüm işlevler Qt standartlarına uygun olarak yazılmıştır.
-- Proje, özgün olarak tarafımdan geliştirilmiştir ve benzerlik kontrolüne uygundur.
-
+- **Ad Soyad**: Şerife Nazlı Ünay  
+- **Üniversite**: Necmettin Erbakan Üniversitesi  
+- **Bölüm**: Bilgisayar Mühendisliği  
+- **LinkedIn**: [linkedin.com/in/serife-nazli-unay](https://www.linkedin.com/in/serife-nazli-unay/)  
+- **Medium**: [medium.com/@nazli_unay](https://medium.com/@nazli_unay)
 ---
 
 ## ✉️ İletişim
 
 Herhangi bir geri bildirim ya da geliştirme önerisi için iletişime geçebilirsiniz.  
-📧 E-posta: [e-posta adresin]
+📧 E-posta: [unay.nazli42@gmail.com]
