@@ -1,17 +1,9 @@
 
 # 🎮 Karpuz Kesme Oyunu (Görsel Programlama Ödevi)
 
-## 👤 Öğrenci Bilgileri
-
-- **Ad Soyad:** [Adınız Soyadınız]
-- **Öğrenci No:** 23100011009
+## 📌 Oyun Açıklaması
 - **Ders:** 2024-2025 Bahar Yarıyılı - Görsel Programlama
 - **Ödev:** 1. Laboratuvar Uygulaması
-
----
-
-## 📌 Oyun Açıklaması
-
 Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesme oyunudur**. Amaç, 30 saniyelik süre içerisinde mümkün olduğunca çok karpuzu keserek yüksek skor elde etmektir.
 
 ---
@@ -72,7 +64,8 @@ Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesm
 
 Oyun içi deneyimi görmek için aşağıdaki videoyu izleyebilirsiniz:
 
-🎥 [Karpuz Kesme Oyunu Tanıtım Videosu](https://www.youtube.com/watch?v=IJ7QwbOhyuI)
+🎥 **YouTube**[Karpuz Kesme Oyunu Tanıtım Videosu](https://www.youtube.com/watch?v=IJ7QwbOhyuI)
+
 ![Oyun Demo](https://s6.ezgif.com/tmp/ezgif-639ea8262b165a.gif) 
 ---
 
@@ -80,16 +73,18 @@ Oyun içi deneyimi görmek için aşağıdaki videoyu izleyebilirsiniz:
 
 Bu proje hakkında yazdığım detaylı yazıya aşağıdaki bağlantıdan ulaşabilirsiniz:
 
-👉 (Medium yazı linki buraya)
+👉 ([Medium yazısı](https://medium.com/@nazli_unay/qt-ve-c-ile-karpuz-kesme-oyunu-geli%C5%9Ftirdim-4907308bf75a))
 
 ---
 ## 👩‍💻 Geliştirici Bilgileri
 
 - **Ad Soyad**: Şerife Nazlı Ünay  
 - **Üniversite**: Necmettin Erbakan Üniversitesi  
-- **Bölüm**: Bilgisayar Mühendisliği  
+- **Bölüm**: Bilgisayar Mühendisliği
+- **Öğrenci No:** 23100011009
 - **LinkedIn**: [linkedin.com/in/serife-nazli-unay](https://www.linkedin.com/in/serife-nazli-unay/)  
 - **Medium**: [medium.com/@nazli_unay](https://medium.com/@nazli_unay)
+
 ---
 
 ## ✉️ İletişim
