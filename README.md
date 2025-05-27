@@ -26,7 +26,7 @@ Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesm
 ## 📂 Proje Yapısı
 
 ```
-23100011009_Odev1/
+KarpuzKesmeOyunu/
 ├── main.cpp
 ├── mainwindow.cpp
 ├── mainwindow.h
@@ -43,7 +43,7 @@ Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesm
 
 ## 🛠 Kurulum & Çalıştırma
 
-1. **Qt Creator** ile `23100011009_Odev1.pro` dosyasını açın.
+1. **Qt Creator** ile `KarpuzKesmeOyunu.pro` dosyasını açın.
 2. Gerekli kaynakların (resimler, `konumlar.txt`) proje dizininde olduğundan emin olun.
 3. Projeyi derleyin ve çalıştırın.
 4. Oyun başladığında 30 saniye süresince karpuzlara tıklayarak en yüksek skoru yapmaya çalışın.
@@ -81,7 +81,6 @@ Bu proje hakkında yazdığım detaylı yazıya aşağıdaki bağlantıdan ulaş
 - **Ad Soyad**: Şerife Nazlı Ünay  
 - **Üniversite**: Necmettin Erbakan Üniversitesi  
 - **Bölüm**: Bilgisayar Mühendisliği
-- **Öğrenci No:** 23100011009
 - **LinkedIn**: [linkedin.com/in/serife-nazli-unay](https://www.linkedin.com/in/serife-nazli-unay/)  
 - **Medium**: [medium.com/@nazli_unay](https://medium.com/@nazli_unay)
 
