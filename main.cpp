@@ -1,5 +1,4 @@
 // Şerife Nazlı Ünay
-// 23100011009
 
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
