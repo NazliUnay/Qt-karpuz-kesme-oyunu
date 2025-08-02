@@ -2,8 +2,7 @@
 # 🎮 Karpuz Kesme Oyunu (Görsel Programlama Ödevi)
 
 ## 📌 Oyun Açıklaması
-- **Ders:** 2024-2025 Bahar Yarıyılı - Görsel Programlama
-- **Ödev:** 1. Laboratuvar Uygulaması
+- **Ders:** 2024-2025 2.Sınıf Bahar Yarıyılı - Görsel Programlama
 Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesme oyunudur**. Amaç, 30 saniyelik süre içerisinde mümkün olduğunca çok karpuzu keserek yüksek skor elde etmektir.
 
 ---
@@ -20,24 +19,6 @@ Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesm
 - ✅ `skorlar.txt` dosyasına skor kaydı
 - ✅ Maksimum skor kontrolü ve kullanıcıya gösterimi
 - ✅ Qt kaynak sistemi (`kaynaklarim.qrc`) üzerinden görsel yönetimi
-
----
-
-## 📂 Proje Yapısı
-
-```
-KarpuzKesmeOyunu/
-├── main.cpp
-├── mainwindow.cpp
-├── mainwindow.h
-├── mainwindow.ui
-├── ui_mainwindow.h
-├── kaynaklarim.qrc
-├── konumlar.txt
-├── skorlar.txt
-├── images/               # Karpuz ve kesilmiş karpuz resimleri
-└── README.md             
-```
 
 ---
 
@@ -59,14 +40,14 @@ KarpuzKesmeOyunu/
 - Süre bittiğinde oyun sona erer ve skor `skorlar.txt` dosyasına kaydedilir.
 
 ---
-
-## 📽️ Ekran Kaydı
+## 📽️ Oyun Videosu
 
 Oyun içi deneyimi görmek için aşağıdaki videoyu izleyebilirsiniz:
 
-🎥 **YouTube**[Karpuz Kesme Oyunu Tanıtım Videosu](https://www.youtube.com/watch?v=IJ7QwbOhyuI)
+🎥 **[Karpuz Kesme Oyunu Tanıtım Videosu (YouTube)](https://www.youtube.com/watch?v=IJ7QwbOhyuI)**
 
-![Oyun Demo](https://s6.ezgif.com/tmp/ezgif-639ea8262b165a.gif) 
+<img src="KarpuzApp.gif" alt="Ekran Kaydı GIF" width="600" />
+
 ---
 
 ## 📝 Proje Hakkında Medium Yazısı
