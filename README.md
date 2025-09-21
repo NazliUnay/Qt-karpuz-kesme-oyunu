@@ -3,7 +3,8 @@
 
 ## 📌 Oyun Açıklaması
 - **Ders:** 2024-2025 2.Sınıf Bahar Yarıyılı - Görsel Programlama
-Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesme oyunudur**. Amaç, 30 saniyelik süre içerisinde mümkün olduğunca çok karpuzu keserek yüksek skor elde etmektir.
+- Bu proje, *Fruit Ninja* oyunundan esinlenilerek oluşturulmuş bir **karpuz kesme oyunudur**. Amaç, 30 saniyelik süre içerisinde mümkün olduğunca çok karpuzu keserek yüksek skor elde etmektir.
+- +2 bonus puan kazandım 😎
 
 ---
 
