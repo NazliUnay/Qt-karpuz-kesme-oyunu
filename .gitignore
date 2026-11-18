@@ -1,0 +1,17 @@
+# Qt Creator kullanıcı ayarları
+*.pro.user
+*.pro.user.*
+
+# Derleme çıktıları
+build-*/
+build/
+debug/
+release/
+Makefile*
+*.o
+*.obj
+*.exe
+moc_*.cpp
+qrc_*.cpp
+
+# Not: ui_mainwindow.h elle yazılmış arayüz kodu içerir, bu yüzden takip edilmeye devam eder.
