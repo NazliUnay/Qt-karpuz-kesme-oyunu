@@ -24,6 +24,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect(bitir, SIGNAL(timeout()), this,SLOT(oyunuBitir()));
     connect(sureTimer,SIGNAL(timeout()), this,SLOT(sureGuncelle()));
 
+    bitir->setSingleShot(true); // Oyun sonu yalnızca bir kez tetiklenmeli
+
     oyunuYenidenBaslat();
 }
 
@@ -43,13 +45,25 @@ void MainWindow::konumlariYukle()
         return;
     }
 
+    konumlar.clear(); // Yeniden başlatmalarda listenin büyümesini önler
+
     QTextStream stream(&file);
     while (!stream.atEnd()) {
-        QStringList parcala = stream.readLine().trimmed().split(" ");
-        if (parcala.size() == 2 && parcala[0].toInt() && parcala[1].toInt()) {
-            konumlar.append(stream.readLine().trimmed());
+        // Satır bir kez okunur; doğrulanan satırın kendisi listeye eklenir
+        const QString satir = stream.readLine().trimmed();
+        if (satir.isEmpty()) continue;
+
+        const QStringList parcala = satir.split(" ");
+        bool okX = false, okY = false;
+        if (parcala.size() == 2) {
+            parcala[0].toInt(&okX); // 0 koordinatı da geçerli kabul edilir
+            parcala[1].toInt(&okY);
+        }
+
+        if (okX && okY) {
+            konumlar.append(satir);
         } else {
-            qDebug() << "Geçersiz konum satırı atlandı: " << stream.readLine().trimmed();
+            qDebug() << "Geçersiz konum satırı atlandı: " << satir;
         }
     }
     file.close();
@@ -144,6 +158,12 @@ bool MainWindow::eventFilter(QObject *targetObjec, QEvent *event)
 
 void MainWindow::karpuzKes(QLabel *karpuz)
 {
+    // Zaten kesilmiş (listeden çıkarılmış) karpuza tekrar tıklanırsa puan verilmez
+    index = karpuzlar.indexOf(karpuz);
+    if (index == -1) return;
+    karpuzlar.removeAt(index);
+    karpuz->removeEventFilter(this);
+
     skor++;
     // Skor maksimumu geçtiyse mesaj göster
     if (skor > enBuyukSkor) {
@@ -155,17 +175,14 @@ void MainWindow::karpuzKes(QLabel *karpuz)
         });
     }
     karpuz->setStyleSheet("border-image: url(:/gorseller/images/2.png); border-radius: 35px;");
-    index = karpuzlar.indexOf(karpuz);
-
-    if (index != -1) {
-        karpuzlar.removeAt(index);
-        QTimer::singleShot(1000, karpuz, &QLabel::deleteLater);
-    }
+    QTimer::singleShot(1000, karpuz, &QLabel::deleteLater);
 
     ui->lbn_kesilenKarpuzSayisi->setText("<font color='black'> 😆Kesilen Karpuz: </font><font color='green'>" + QString::number(skor) + "</font>");
 }
 void MainWindow::oyunuBitir()
 {
+    bitir->stop();
+    sureTimer->stop();
     karpuzDusurTimer->stop();
     karpuzOlusturTimer->stop();
 
